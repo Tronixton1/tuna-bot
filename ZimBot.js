@@ -2523,10 +2523,18 @@ To download media, please click one of the buttons below or enter the ytmp3/ytmp
                                                                                                                     locationMessage: {
                                                                                                                     jpegThumbnail: fs.readFileSync('./image/drips.jpg')},
                                                                                                                     hydratedFooterText: `𝗛𝗶  ${pushname}
-╭──────[ 𝗭𝗜𝗠𝗕𝗢𝗧 𝗠𝗘𝗡𝗨 ]
-│💎𝗕𝗢𝗧 𝗡𝗔𝗠𝗘 : ZIM BOT  INC
+╭──────[ BOT_NYAMA'S 𝗠𝗘𝗡𝗨 ]
+│💎𝗕𝗢𝗧 𝗡𝗔𝗠𝗘 : BOT NYAMA
 │
-│💎𝗢𝗪𝗡𝗘𝗥 𝗡𝗔𝗠𝗘: DRIPS
+│💎𝗢𝗪𝗡𝗘𝗥 𝗡𝗔𝗠𝗘: TRADER_NYAMA
+┃
+┃
+│  FOR DP2P DEALS CLICK OWNER 
+┃           OR
+┃   TEXT/CALL OT WHATSAPP
+┃       0784675236
+┃
+┃   OUTSIDE HARARE USE MUKURU
 ┃
 ┃💎𝗥𝗨𝗡𝗧𝗜𝗠𝗘 : ${runtime(process.uptime())}
 ┃
@@ -2542,7 +2550,66 @@ hydratedButtons: [{
                                                                                                                         displayText: 'TRADING ACCOUNT',
                                                                                                                             url: 'https://record.binary.com/_Mxrjb7udl0q6tyDIijdDK2Nd7ZgqdRLk/1/'
                                                                                                                         }
-                                                                                                                    }, {
+                                                                                                                    },
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    {
+                                                                                                                        urlButton: {
+                                                                                                                        displayText: 'FOREX DISCUSSION GROUP 1',
+                                                                                                                            url: 'https://chat.whatsapp.com/LNt5CMHQmvBJKX4VjKQv9V'
+
+
+                                                                                                                        }
+                                                                                                                    },
+
+
+
+                                                                                                                    {
+                                                                                                                        urlButton: {
+                                                                                                                        displayText: 'FOREX ANALYSIS GROUP 2',
+                                                                                                                            url: 'https://chat.whatsapp.com/HD3XnQeB7WKEN5UCrHqKwc'
+
+
+                                                                                                                        }
+                                                                                                                    },
+
+
+
+
+
+
+                                                                                                                    {
+                                                                                                                        urlButton: {
+                                                                                                                        displayText: 'FOREX FREE MENTORSHIP GROUP 3',
+                                                                                                                            url: 'COMING SOON'
+
+
+                                                                                                                        }
+                                                                                                                    },
+
+
+
+                                                                                                                    {
+                                                                                                                        urlButton: {
+                                                                                                                        displayText: 'FOREX YOUTUBE CHANNELS',
+                                                                                                                            url: 'COMING SOON'
+
+
+                                                                                                                        }
+                                                                                                                    },
+
+                                                                                                                    {
+                                                                                                                        urlButton: {
+                                                                                                                        displayText: 'TELEGRAM GROUP',
+                                                                                                                            url: 'COMING SOON'
+
+
+                                                                                                                        }
+                                                                                                                    },
+
+                                                                                                                    
+
+                                                                                                                        {
                                                                                                                         quickReplyButton: {
                                                                                                                             displayText: 'MENU',
                                                                                                                             id: `${prefix}allmenu`
@@ -2811,7 +2878,7 @@ hydratedButtons: [{
                                                                                                                     hydratedContentText: anu,
                                                                                                                     locationMessage: {
                                                                                                                     jpegThumbnail: fs.readFileSync('./image/drips.jpg')},
-                                                                                                                    hydratedFooterText: `bot nyama 𝗜𝗡𝗖`,
+                                                                                                                    hydratedFooterText: `bot nyama `,
                                                                                                                     hydratedButtons: [{
                                                                                                                         urlButton: {
                                                                                                                             displayText: 'SUBSCRIBE',
@@ -3265,7 +3332,7 @@ hydratedButtons: [{
                                                                                           case 'allmenu': {
                                                                                                anu = `
     ╭───────────╮
-    │𝗭𝗜𝗠𝗕𝗢𝗧-𝗠𝗘𝗡𝗨  ▎
+    │𝗠𝗘𝗡𝗨_NYAMA ▎
     ╰───────────╯
     ╭──❰ 𝗚𝗥𝗢𝗨𝗣 𝗠𝗘𝗡𝗨 ❱
     │🔵 ${prefix}grouplink
