@@ -1,7 +1,8 @@
 //                     zimbot.inc.pressents 
 //                     2022 production
 //                     Thanks to dikArdnt
-                                                                                        //drips
+                                                                                        //TRADE NYAMA
+
 
 
 const fs = require('fs')
@@ -16,26 +17,26 @@ global.APIKeys = {
 }
 
 //other
-global.owner = ['27634090203'] 
-global.pemilik = ['27634090203'] //pemilik nomor
-global.premium = ['27634090203'] //premium number
-global.pengguna = 'Drips' //pengguna
-global.botnma = 'ZIM BOT INC' //botnama,botname
-global.ownernma = 'Drips' //ownernama,ownername
-global.packname = 'Drips' // packname
-global.author = 'By Drips Memes' //authorname
+global.owner = ['263784675236'] 
+global.pemilik = ['263784675236'] //pemilik nomor
+global.premium = ['263784675236'] //premium number
+global.pengguna = 'TRADER_NYAMA' //pengguna
+global.botnma = 'BOT_NYAMA' //botnama,botname
+global.ownernma = 'TRADER_NYAMA' //ownernama,ownername
+global.packname = 'TRADER_NYAMA' // packname
+global.author = 'By TRADER_NYAMA' //authorname
 global.sessionName = 'session'
 global.prefa = ['#','!','/',''] 
 global.sp = '🔵'
 global.mess = {
     success: 'Takaenda Done!',
     admin: 'you must be admin to use this cmd!',
-    botAdmin: 'zim bot must be admin neh!',
-    owner: 'This cmd is for zim bot owner only',
+    botAdmin: 'BOT NYAMA must be admin neh!',
+    owner: 'This cmd is for BOT NYAMA owner only',
     group: 'oooh sorry this cmd is for groups only!',
     private: 'goossssh it can only used in dms!',
     bot: 'This cmd  its only for the bot host',
-    wait: 'wait zim bot processing ',
+    wait: 'wait BOT NYAMA processing ',
     endLimit: 'Your Daily Limit Has Expired, The Limit Will Be Reset Every 12 Hours',
 }
 global.limitawal = {
