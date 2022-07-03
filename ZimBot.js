@@ -2427,7 +2427,7 @@ To download media, please click one of the buttons below or enter the ytmp3/ytmp
                                                                                                     break
                                                                                                     case 'owner': case 'creator': {
                                                                                                     ZimBotInc.sendContact(m.chat, global.pemilik, m)
-                                                                                                   const devsound = fs.readFileSync('./drips.mp3') 
+                                                                                                   const devsound = fs.readFileSync('') 
                                                                                                    ZimBotInc.sendMessage(m.chat, { audio: devsound, mimetype: 'audio/mp4', ptt: true, quoted: m })
                                                                                                     }
                                                                                                     break
