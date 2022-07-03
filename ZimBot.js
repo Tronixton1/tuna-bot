@@ -5,7 +5,7 @@
 
                                                                                         require('./settings')
                                                                                         const { BufferJSON, WA_DEFAULT_EPHEMERAL, generateWAMessageFromContent, proto, generateWAMessageContent, generateWAMessage, prepareWAMessageMedia, areJidsSameUser, getContentType } = require('@adiwajshing/baileys')
-                                                                                       const fs = require('fs')
+                                                                                        const fs = require('fs')
                                                                                         const util = require('util')
                                                                                         const chalk = require('chalk')
                                                                                         const { exec, spawn, execSync } = require("child_process")
@@ -112,7 +112,7 @@
                                                                                          let _buruan = JSON.parse(fs.readFileSync('./storage/user/hasil_buruan.json'));
                                                                                          let _darahOrg = JSON.parse(fs.readFileSync('./storage/user/darah.json'))
                                                                                         
-                                                                                        let drips = fs.readFileSync('./image/Botrangu')
+                                                                                        let drips = fs.readFileSync('./image/drips.jpg')
                                                                                         
                                                                                         const antilink = JSON.parse(fs.readFileSync('./database/antilink.json'))
                                                                                         
@@ -181,11 +181,11 @@
                                                                                         return dDisplay + hDisplay + mDisplay + sDisplay;
                                                                                         }
                                                                                             const reply = (teks) => {
-                                                                                                    ZimBotInc.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botnma}`,"body": ` BOT GROUP`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./image/Botrangu`),"sourceUrl": "https://chat.whatsapp.com/I4A537i8HxN9M7BrJ6cbGV"}}}, { quoted: m})
+                                                                                                    ZimBotInc.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botnma}`,"body": ` BOT GROUP`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./image/drips.jpg`),"sourceUrl": "https://chat.whatsapp.com/I4A537i8HxN9M7BrJ6cbGV"}}}, { quoted: m})
                                                                                                 }
                                                                                                 
                                                                                                 const replay = (teks) => {
-                                                                                                    ZimBotInc.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botnma}`,"body": `BOT YOUTUBE CHANNEL `, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./image/Botrangu`),"sourceUrl": "https://youtube.com/c/DRIPSOFC"}}}, { quoted: m})
+                                                                                                    ZimBotInc.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botnma}`,"body": `BOT YOUTUBE CHANNEL `, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./image/drips.jpg`),"sourceUrl": "https://youtube.com/c/DRIPSOFC"}}}, { quoted: m})
                                                                                                 }
                                                                                         try {
                                                                                                     let isNumber = x => typeof x === 'number' && !isNaN(x)
@@ -1297,7 +1297,7 @@ case 'antilink':
                                                                                                                             id: 'sc'
                                                                                                                         }
                                                                                                                     }]
-                                                                                                              fatihgans = fs.readFileSync('./image/Botrangu')
+                                                                                                              fatihgans = fs.readFileSync('./image/drips.jpg')
                                                                                                               let txt = `「 ZimBot Broadcast 」\n\n${text}`
                                                                                                               ZimBotInc.send5ButImg(i, txt, ZimBotInc.user.name, fatihgans, btn)
                                                                                                             }
@@ -1322,7 +1322,7 @@ case 'antilink':
                                                                                                                             id: 'owner'
                                                                                                                         }
                                                                                                                     }]
-                                                                                                              fatihgans = fs.readFileSync('./image/Botrangu')
+                                                                                                              fatihgans = fs.readFileSync('./image/drips.jpg')
                                                                                                               let txt = `「 ZIM BOT BROADCAST 」\n\n${text}`
                                                                                                               ZimBotInc.send5ButImg(yoi, txt, `Broadcast By ${global.pengguna}`, fatihgans, btn)
                                                                                                 }
@@ -2427,7 +2427,7 @@ To download media, please click one of the buttons below or enter the ytmp3/ytmp
                                                                                                     break
                                                                                                     case 'owner': case 'creator': {
                                                                                                     ZimBotInc.sendContact(m.chat, global.pemilik, m)
-                                                                                                   const devsound = fs.readFileSync('') 
+                                                                                                   const devsound = fs.readFileSync('./drips.mp3') 
                                                                                                    ZimBotInc.sendMessage(m.chat, { audio: devsound, mimetype: 'audio/mp4', ptt: true, quoted: m })
                                                                                                     }
                                                                                                     break
@@ -2477,7 +2477,7 @@ To download media, please click one of the buttons below or enter the ytmp3/ytmp
                                                                                                                 hydratedTemplate: {
                                                                                                                     hydratedContentText: anu,
                                                                                                                     locationMessage: {
-                                                                                                                    jpegThumbnail: fs.readFileSync('./image/Botrangu.jpg')},
+                                                                                                                    jpegThumbnail: fs.readFileSync('./image/drips.jpg')},
                                                                                                                     hydratedFooterText: `bot nyama`,
                                                                                                                     hydratedButtons: [{
                                                                                                                         urlButton: {
@@ -2521,7 +2521,7 @@ To download media, please click one of the buttons below or enter the ytmp3/ytmp
                                                                                                                 hydratedTemplate: {
                                                                                                                     hydratedContentText: anu,
                                                                                                                     locationMessage: {
-                                                                                                                    jpegThumbnail: fs.readFileSync('./image/Botrangu.jpg')},
+                                                                                                                    jpegThumbnail: fs.readFileSync('./image/drips.jpg')},
                                                                                                                     hydratedFooterText: `𝗛𝗶 
                                                                                                                     
                                                                                                                    
@@ -2722,7 +2722,7 @@ JOIN THIS GROUP IF YOU WANT TO LEARN FOREX TRADING
                                                                                                                 hydratedTemplate: {
                                                                                                                     hydratedContentText: anu,
                                                                                                                     locationMessage: {
-                                                                                                                    jpegThumbnail: fs.readFileSync('./image/Botrangu.jpg')},
+                                                                                                                    jpegThumbnail: fs.readFileSync('./image/drips.jpg')},
                                                                                                                     hydratedFooterText: `bot nyama 𝗜𝗡𝗖`,
                                                                                                                     hydratedButtons: [{
                                                                                                                         urlButton: {
@@ -2765,7 +2765,7 @@ GROUP COMING SOON
                                                                                                                 hydratedTemplate: {
                                                                                                                     hydratedContentText: okemenu,
                                                                                                                     locationMessage: {
-                                                                                                                    jpegThumbnail: fs.readFileSync('./image/Botrangu')},
+                                                                                                                    jpegThumbnail: fs.readFileSync('./image/drips.jpg')},
                                                                                                                     hydratedFooterText: `bot nyama 𝗜𝗡𝗖`,
                                                                                                                     hydratedButtons: [{
                                                                                                                         urlButton: {
@@ -2803,7 +2803,7 @@ GROUP COMING SOON
                                                                                                                 hydratedTemplate: {
                                                                                                                     hydratedContentText: anu,
                                                                                                                     locationMessage: {
-                                                                                                                    jpegThumbnail: fs.readFileSync('./image/Botrangu')},
+                                                                                                                    jpegThumbnail: fs.readFileSync('./image/drips.jpg')},
                                                                                                                     hydratedFooterText: `bot nyama 𝗜𝗡𝗖`,
                                                                                                                     hydratedButtons: [{
                                                                                                                         urlButton: {
@@ -2833,7 +2833,7 @@ GROUP COMING SOON
                                                                                                                 hydratedTemplate: {
                                                                                                                     hydratedContentText: anu,
                                                                                                                     locationMessage: {
-                                                                                                                    jpegThumbnail: fs.readFileSync('./image/Botrangu')},
+                                                                                                                    jpegThumbnail: fs.readFileSync('./image/drips.jpg')},
                                                                                                                     hydratedFooterText: `bot nyama `,
                                                                                                                     hydratedButtons: [{
                                                                                                                         urlButton: {
@@ -2864,7 +2864,7 @@ GROUP COMING SOON
                                                                                                                 hydratedTemplate: {
                                                                                                                     hydratedContentText: anu,
                                                                                                                     locationMessage: {
-                                                                                                                    jpegThumbnail: fs.readFileSync('./image/Botrangu')},
+                                                                                                                    jpegThumbnail: fs.readFileSync('./image/drips.jpg')},
                                                                                                                     hydratedFooterText: `bot nyama 𝗜𝗡𝗖`,
                                                                                                                     hydratedButtons: [{
                                                                                                                         urlButton: {
@@ -2903,7 +2903,7 @@ GROUP COMING SOON
                                                                                                                 hydratedTemplate: {
                                                                                                                     hydratedContentText: anu,
                                                                                                                     locationMessage: {
-                                                                                                                    jpegThumbnail: fs.readFileSync('./image/Botrangu')},
+                                                                                                                    jpegThumbnail: fs.readFileSync('./image/drips.jpg')},
                                                                                                                     hydratedFooterText: `bot nyama 𝗜𝗡𝗖`,
                                                                                                                     hydratedButtons: [{
                                                                                                                         urlButton: {
@@ -2936,7 +2936,7 @@ GROUP COMING SOON
                                                                                                                 hydratedTemplate: {
                                                                                                                     hydratedContentText: anu,
                                                                                                                     locationMessage: {
-                                                                                                                    jpegThumbnail: fs.readFileSync('./image/Botrangu')},
+                                                                                                                    jpegThumbnail: fs.readFileSync('./image/drips.jpg')},
                                                                                                                     hydratedFooterText: `bot nyama`,
                                                                                                                     hydratedButtons: [{
                                                                                                                         urlButton: {
@@ -2994,7 +2994,7 @@ GROUP COMING SOON
                                                                                                                 hydratedTemplate: {
                                                                                                                     hydratedContentText: anu,
                                                                                                                     locationMessage: {
-                                                                                                                    jpegThumbnail: fs.readFileSync('./image/Botrangu')},
+                                                                                                                    jpegThumbnail: fs.readFileSync('./image/drips.jpg')},
                                                                                                                     hydratedFooterText: `bot nyama`,
                                                                                                                     hydratedButtons: [{
                                                                                                                         urlButton: {
@@ -3033,7 +3033,7 @@ GROUP COMING SOON
                                                                                                                 hydratedTemplate: {
                                                                                                                     hydratedContentText: anu,
                                                                                                                     locationMessage: {
-                                                                                                                    jpegThumbnail: fs.readFileSync('./image/Botrangu')},
+                                                                                                                    jpegThumbnail: fs.readFileSync('./image/drips.jpg')},
                                                                                                                     hydratedFooterText: `bot nyama`,
                                                                                                                     hydratedButtons: [{
                                                                                                                         urlButton: {
@@ -3093,7 +3093,7 @@ GROUP COMING SOON
                                                                                                                 hydratedTemplate: {
                                                                                                                     hydratedContentText: anu,
                                                                                                                     locationMessage: {
-                                                                                                                    jpegThumbnail: fs.readFileSync('./image/Botrangu')},
+                                                                                                                    jpegThumbnail: fs.readFileSync('./image/drips.jpg')},
                                                                                                                     hydratedFooterText: `bot nyama`,
                                                                                                                     hydratedButtons: [{
                                                                                                                         urlButton: {
@@ -3133,7 +3133,7 @@ GROUP COMING SOON
                                                                                                                 hydratedTemplate: {
                                                                                                                     hydratedContentText: anu,
                                                                                                                     locationMessage: {
-                                                                                                                    jpegThumbnail: fs.readFileSync('./image/Botrangu')},
+                                                                                                                    jpegThumbnail: fs.readFileSync('./image/drips.jpg')},
                                                                                                                     hydratedFooterText: `bot nyama`,
                                                                                                                     hydratedButtons: [{
                                                                                                                         urlButton: {
@@ -3169,7 +3169,7 @@ GROUP COMING SOON
                                                                                                                 hydratedTemplate: {
                                                                                                                     hydratedContentText: anu,
                                                                                                                     locationMessage: {
-                                                                                                                    jpegThumbnail: fs.readFileSync('./image/Botrangu')},
+                                                                                                                    jpegThumbnail: fs.readFileSync('./image/drips.jpg')},
                                                                                                                     hydratedFooterText: `bot nyama`,
                                                                                                                     hydratedButtons: [{
                                                                                                                         urlButton: {
@@ -3200,7 +3200,7 @@ GROUP COMING SOON
                                                                                                                 hydratedTemplate: {
                                                                                                                     hydratedContentText: anu,
                                                                                                                     locationMessage: {
-                                                                                                                    jpegThumbnail: fs.readFileSync('./image/Botrangu')},
+                                                                                                                    jpegThumbnail: fs.readFileSync('./image/drips.jpg')},
                                                                                                                     hydratedFooterText: `bot nyama`,
                                                                                                                     hydratedButtons: [{
                                                                                                                         urlButton: {
@@ -3231,7 +3231,7 @@ GROUP COMING SOON
                                                                                                                 hydratedTemplate: {
                                                                                                                     hydratedContentText: anu,
                                                                                                                     locationMessage: {
-                                                                                                                    jpegThumbnail: fs.readFileSync('./image/Botrangu')},
+                                                                                                                    jpegThumbnail: fs.readFileSync('./image/drips.jpg')},
                                                                                                                     hydratedFooterText: `bot nyama`,
                                                                                                                     hydratedButtons: [{
                                                                                                                         urlButton: {
@@ -3267,7 +3267,7 @@ GROUP COMING SOON
                                                                                                                 hydratedTemplate: {
                                                                                                                     hydratedContentText: anu,
                                                                                                                     locationMessage: {
-                                                                                                                    jpegThumbnail: fs.readFileSync('./image/Botrangu')},
+                                                                                                                    jpegThumbnail: fs.readFileSync('./image/drips.jpg')},
                                                                                                                     hydratedFooterText: `bot nyama`,
                                                                                                                     hydratedButtons: [{
                                                                                                                         urlButton: {
@@ -3507,7 +3507,7 @@ TELLEGRAM CHANNEL
                                                                                                                 hydratedTemplate: {
                                                                                                                     hydratedContentText: anu,
                                                                                                                     locationMessage: {
-                                                                                                                    jpegThumbnail: fs.readFileSync('./image/Botrangu')},
+                                                                                                                    jpegThumbnail: fs.readFileSync('./image/drips.jpg')},
                                                                                                                     hydratedFooterText: `bot nyama`,
                                                                                                                     hydratedButtons: [{
                                                                                                                         urlButton: {
