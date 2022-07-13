@@ -2523,10 +2523,7 @@ To download media, please click one of the buttons below or enter the ytmp3/ytmp
                                                                                                                     locationMessage: {
                                                                                                                     jpegThumbnail: fs.readFileSync('./image/drips.jpg')},
                                                                                                                     hydratedFooterText: `𝗛𝗶 
-                                                                                                                    
-                                                                                                                   
-                                                                                                                    
-                                                                                                                    ${pushname}
+                                                                                                                    ${pushname} Did you know that you can unlock more features simply by clicking the subscribe button below.
 ╭──────[ BOT_NYAMA'S 𝗠𝗘𝗡𝗨 ]
 │💎𝗕𝗢𝗧 𝗡𝗔𝗠𝗘 : BOT NYAMA
 │
@@ -2745,7 +2742,7 @@ JOIN THIS GROUP IF YOU WANT TO LEARN FOREX TRADING
                                                                                             okemenu = `
 *𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗 𝗠𝗘𝗡𝗨*
 JOIN THIS ENTERTAINMENT GROUP
-GROUP COMING SOON
+ https://chat.whatsapp.com/HD3XnQeB7WKEN5UCrHqKwc
 🔮 ${prefix}tiktoknowm
 🔮 ${prefix}tiktokwm
 🔮 ${prefix}tiktokmp3
@@ -2754,10 +2751,6 @@ GROUP COMING SOON
 🔮 ${prefix}igreels
 🔮 ${prefix}igtv
 🔮 ${prefix}twitter
-🔮 ${prefix}twittermp3
-🔮 ${prefix}ytmp3
-🔮 ${prefix}ytmp4
-🔮 ${prefix}getmusic
 🔮 ${prefix}getvideo
                                                                                           `
                                                                                           const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
@@ -2788,7 +2781,7 @@ GROUP COMING SOON
                                                                                                         anu = `
 *𝗦𝗘𝗔𝗥𝗖𝗛 𝗠𝗘𝗡𝗨*
 JOIN THIS GROUP FOR INTERNET SEARCH
-GROUP COMING SOON
+https://chat.whatsapp.com/HD3XnQeB7WKEN5UCrHqKwc
 💮 ${prefix}play
 💮 ${prefix}yts
 💮 ${prefix}google
@@ -2886,6 +2879,7 @@ GROUP COMING SOON
                                                                                         case 'voicemenu': {
                                                                                             anu = `
 *𝗩𝗢𝗜𝗖𝗘 𝗖𝗛𝗔𝗡𝗚𝗘𝗥 𝗠𝗘𝗡𝗨*
+https://chat.whatsapp.com/HD3XnQeB7WKEN5UCrHqKwc
 🔵 ${prefix}bass
 🔵 ${prefix}blown
 🔵 ${prefix}deep
@@ -2958,7 +2952,7 @@ GROUP COMING SOON
                                                                                         case 'horoscopemenukcodk': {
                                                                                             anu = `
  *𝗛𝗢𝗥𝗢𝗦𝗖𝗢𝗣𝗘 𝗠𝗘𝗡𝗨*
-
+ https://chat.whatsapp.com/HD3XnQeB7WKEN5UCrHqKwc
 🔵 ${prefix}hockeynumber
 🔵 ${prefix}dreammeaning
 🔵 ${prefix}namemeaning
@@ -3017,7 +3011,7 @@ GROUP COMING SOON
                                                                                             anu = `
 *𝗖𝗢𝗡𝗩𝗘𝗥𝗧 𝗠𝗘𝗡𝗨*
 JOIN THIS GROUP IF YOU WANT TO CONVERT FILES LIKE IMAGE TO STICKER ETC
-GROUP COMING SOON
+https://chat.whatsapp.com/HD3XnQeB7WKEN5UCrHqKwc
 🔵 ${prefix}toimage
 🔵 ${prefix}removebg
 🔵 ${prefix}sticker
@@ -3055,7 +3049,7 @@ GROUP COMING SOON
                                                                                         case 'ranimemenu': {
                                                                                             anu = `
 *RANDOM ANIME*
-
+https://chat.whatsapp.com/HD3XnQeB7WKEN5UCrHqKwc
 🐦 ${prefix}loli
 🐦 ${prefix}neko
 🐦 ${prefix}waifu
@@ -3115,6 +3109,7 @@ GROUP COMING SOON
                                                                                         case 'nocategorymenu': {
                                                                                             anu = `
 *𝗠𝗜𝗦𝗖 𝗠𝗘𝗡𝗨*
+https://chat.whatsapp.com/HD3XnQeB7WKEN5UCrHqKwc
 🔵 ${prefix}speedtest
 🔵 ${prefix}ping
 🔵 ${prefix}owner
@@ -3155,6 +3150,7 @@ GROUP COMING SOON
                                                                                         case 'databasemenu': {
                                                                                             anu = `
 *𝗗𝗔𝗧𝗔𝗕𝗔𝗦𝗘 𝗠𝗘𝗡𝗨*
+https://chat.whatsapp.com/HD3XnQeB7WKEN5UCrHqKwc
 🔵 ${prefix}setcmd
 🔵 ${prefix}listcmd
 🔵 ${prefix}delcmd
@@ -3191,6 +3187,7 @@ GROUP COMING SOON
                                                                                         case 'anonymouschatmenu': {
                                                                                             anu = `
 *𝗔𝗡𝗢𝗡𝗬𝗠𝗢𝗨𝗦 𝗠𝗘𝗡𝗨*
+https://chat.whatsapp.com/HD3XnQeB7WKEN5UCrHqKwc
 🔵 ${prefix}start
 🔵 ${prefix}next
 🔵 ${prefix}stop
@@ -3222,6 +3219,7 @@ GROUP COMING SOON
                                                                                         case 'sistemmenu': {
                                                                                             anu = `
 *𝗦𝗬𝗦𝗧𝗘𝗠 𝗠𝗘𝗡𝗨* 
+https://chat.whatsapp.com/HD3XnQeB7WKEN5UCrHqKwc
 🔵 ${prefix}antilink
 🔵 ${prefix}mute
 🔵 ${prefix}antiwame
@@ -3253,6 +3251,7 @@ GROUP COMING SOON
                                                                                           case 'ownermenu': {
                                                                                               anu = `
 *𝗢𝗪𝗡𝗘𝗥 𝗠𝗘𝗡𝗨*
+https://chat.whatsapp.com/HD3XnQeB7WKEN5UCrHqKwc
 🔵 ${prefix}chat
 🔵 ${prefix}join
 🔵 ${prefix}leave
@@ -3300,7 +3299,7 @@ GROUP2
 
 
 YOUTUBE CHANNELS
-
+https://www.youtube.com/channel/UCLurCE7y35ZQyP7_KPBb_Tw/featured
 TELLEGRAM CHANNEL
 
     ╭──❰ 𝗚𝗥𝗢𝗨𝗣 𝗠𝗘𝗡𝗨 ❱
