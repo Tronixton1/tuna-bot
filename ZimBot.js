@@ -2524,16 +2524,12 @@ To download media, please click one of the buttons below or enter the ytmp3/ytmp
                                                                                                                     jpegThumbnail: fs.readFileSync('./image/drips.jpg')},
                                                                                                                     hydratedFooterText: `HI  ${pushname} 
 
-*DASHBOARD*
+DASHBOARD
 
-NEXT WEEK I MIGHTGO UNDER MAINTANANCE, IF YOU SEE ME OFFLINE DONT WORRY BECAUSE I WILL BE BACK!
+NEXT WEEK I MIGHT GO UNDER MAINTANANCE, IF YOU SEE ME OFFLINE DONT WORRY BECAUSE I WILL BE BACK!
 
-
-                                                                                                                    *SPECIAL ANOUNCEMENT*
-                                                                                                                    
-                                                                                                                    ZIMBOT-V4 NOW OUT!!!
-
-                                                                                                                    
+                                                                                                                    SPECIAL ANOUNCEMENT  
+                                                                                                                    ZIMBOT-V4 NOW OUT!!!                                                                                                                 
 ╭──────[ BOT_NYAMA'S 𝗠𝗘𝗡𝗨 ]
 ┃
 │💎𝗕𝗢𝗧 𝗡𝗔𝗠𝗘 : BOT NYAMA
@@ -2541,16 +2537,16 @@ NEXT WEEK I MIGHTGO UNDER MAINTANANCE, IF YOU SEE ME OFFLINE DONT WORRY BECAUSE 
 │💎𝗢𝗪𝗡𝗘𝗥 𝗡𝗔𝗠𝗘: TRADER_NYAMA
 ┃
 ┃
-│  FOR DP2P DEALS CLICK DP2P DEALER 
+│💎 FOR DP2P DEALS CLICK DP2P DEALER 
 ┃           OR
-┃   TEXT/CALL OT WHATSAPP
+┃💎   TEXT/CALL OT WHATSAPP
 ┃       0784675236
 ┃
-┃*NAME:* ${pushname}
+┃💎NAME: ${pushname}
 ┃
-┃ ɴᴜᴍʙᴇʀ : wa.me/${m.sender.split('@')[0]} 
+┃💎 ɴᴜᴍʙᴇʀ : wa.me/${m.sender.split('@')[0]} 
 ┃ 
-┃*ᴛᴏᴛᴀʟ ᴜsᴇʀs:* ${Object.keys(global.db.users).length}
+┃💎ᴛᴏᴛᴀʟ ᴜsᴇʀs: ${Object.keys(global.db.users).length}
 ┃
 ┃💎𝗥𝗨𝗡𝗧𝗜𝗠𝗘 : ${runtime(process.uptime())}
 ┃
