@@ -2540,7 +2540,24 @@ To download media, please click one of the buttons below or enter the ytmp3/ytmp
 ┃💎𝗥𝗨𝗡𝗧𝗜𝗠𝗘 : ${runtime(process.uptime())}
 ┃
 ╰─────────────────────⦁
+┌───〔 *_◉ᴜsᴇʀ ɪɴғᴏ◉_* 〕
+┊ *NAME:* ${pushname}
+┊  ɴᴜᴍʙᴇʀ : wa.me/${m.sender.split('@')[0]}
+┊ *RANK:* ${role}
+┊ *STATUS:* ${elit}
+┊ *MONEY:* $${(getBalance(sender, balance))}
+┊ *XP:* ${getLevelingXp(sender)}/${reqXp}
+┊ *LEVEL:* ${getLevelingLevel(sender)}
+┊ *MONEY:* $${(getBalance(sender, balance))}
+┊ *GOLD:* ${getEmas(sender)}
+┊ *IRON:* ${getBesi(sender)}
+┊ *FISH:* ${getFish(sender)}
+┊ *DIAMOND:* ${getDm(sender)}
+┊ *ᴠᴇʀꜱɪᴏɴ:* ${os.version()}
+┊ *ᴛᴏᴛᴀʟ ᴜsᴇʀs:* ${Object.keys(global.db.users).length}
+└───────────●
 `,
+
 hydratedButtons: [{
                                                                                                                         urlButton: {
                                                                                                                             displayText: 'WHATSAPP GROUP',
@@ -2705,7 +2722,7 @@ hydratedButtons: [{
 JOIN THIS GROUP IF YOU WANT TO LEARN FOREX TRADING
  https://chat.whatsapp.com/HD3XnQeB7WKEN5UCrHqKwc
 
- Trade with Deriv broker ( formerly called Binary ) link above. Create a Real Synthetic account  You will get to trade famous indices like Volatility 75 Index, Crash, Boom and others. -Minimum deposit as low as 5 dollars.  -You can trade even in weekends,  these indices are available to trade 24 hours a day, 365 days a year. -No noise, Trade with Deriv broker ( formerly called Binary ) link above. The best Forex broker since year 2000. Create a Real Financial or Financial STP account  for currency pairs._\n\n*GET STARTED TODAY: *\n\n*   https://record.binary.com/_Mxrjb7udl0q6tyDIijdDK2Nd7ZgqdRLk/1/    *\n\n*LINK 2:* https://track.deriv.com/_hx9O43AkP_tBMfcXPt5VjGNd7ZgqdRLk/1\n\n*LINK 3:* https://record.binary.com/_Mxrjb7udl0q6tyDIijdDK2Nd7ZgqdRLk/1/\n\n*CONTACT:* https://wa.me/+263775482759 or https://wa.me/263784675236_*for help*
+ Trade with Deriv broker ( formerly called Binary ) link above. Create a Real Synthetic account  You will get to trade famous indices like Volatility 75 Index, Crash, Boom and others. -Minimum deposit as low as 5 dollars.  -You can trade even in weekends,  these indices are available to trade 24 hours a day, 365 days a year. -No noise, Trade with Deriv broker ( formerly called Binary ) link above. The best Forex broker since year 2000. Create a Real Financial or Financial STP account  for currency pairs._\n\n GET STARTED TODAY: \n\n   https://record.binary.com/_Mxrjb7udl0q6tyDIijdDK2Nd7ZgqdRLk/1/    *\n\n*LINK 2:* https://track.deriv.com/_hx9O43AkP_tBMfcXPt5VjGNd7ZgqdRLk/1\n\n*LINK 3:* https://record.binary.com/_Mxrjb7udl0q6tyDIijdDK2Nd7ZgqdRLk/1/\n\n*CONTACT:* https://wa.me/+263775482759 or https://wa.me/263784675236 *for help*
 
 🌟 ${prefix}grouplink
 🌟 ${prefix}ephemeral
