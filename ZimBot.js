@@ -2522,8 +2522,7 @@ To download media, please click one of the buttons below or enter the ytmp3/ytmp
                                                                                                                     hydratedContentText: anu,
                                                                                                                     locationMessage: {
                                                                                                                     jpegThumbnail: fs.readFileSync('./image/drips.jpg')},
-                                                                                                                    hydratedFooterText: `𝗛𝗶 
-                                                                                                                    ${pushname} ZIMBOT-V4 NOW OUT!!!
+                                                                                                                    hydratedFooterText: `𝗛𝗶  ${pushname} ZIMBOT-V4 NOW OUT!!!
 ╭──────[ BOT_NYAMA'S 𝗠𝗘𝗡𝗨 ]
 │💎𝗕𝗢𝗧 𝗡𝗔𝗠𝗘 : BOT NYAMA
 │
@@ -2534,28 +2533,12 @@ To download media, please click one of the buttons below or enter the ytmp3/ytmp
 ┃           OR
 ┃   TEXT/CALL OT WHATSAPP
 ┃       0784675236
-┃
-┃   
-┃
+┃*NAME:* ${pushname}
+┃ ɴᴜᴍʙᴇʀ : wa.me/${m.sender.split('@')[0]}  
+┃*ᴛᴏᴛᴀʟ ᴜsᴇʀs:* ${Object.keys(global.db.users).length}
 ┃💎𝗥𝗨𝗡𝗧𝗜𝗠𝗘 : ${runtime(process.uptime())}
 ┃
 ╰─────────────────────⦁
-┌───〔 *_◉ᴜsᴇʀ ɪɴғᴏ◉_* 〕
-┊ *NAME:* ${pushname}
-┊  ɴᴜᴍʙᴇʀ : wa.me/${m.sender.split('@')[0]}
-┊ *RANK:* ${role}
-┊ *STATUS:* ${elit}
-┊ *MONEY:* $${(getBalance(sender, balance))}
-┊ *XP:* ${getLevelingXp(sender)}/${reqXp}
-┊ *LEVEL:* ${getLevelingLevel(sender)}
-┊ *MONEY:* $${(getBalance(sender, balance))}
-┊ *GOLD:* ${getEmas(sender)}
-┊ *IRON:* ${getBesi(sender)}
-┊ *FISH:* ${getFish(sender)}
-┊ *DIAMOND:* ${getDm(sender)}
-┊ *ᴠᴇʀꜱɪᴏɴ:* ${os.version()}
-┊ *ᴛᴏᴛᴀʟ ᴜsᴇʀs:* ${Object.keys(global.db.users).length}
-└───────────●
 `,
 
 hydratedButtons: [{
