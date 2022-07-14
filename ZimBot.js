@@ -2522,8 +2522,20 @@ To download media, please click one of the buttons below or enter the ytmp3/ytmp
                                                                                                                     hydratedContentText: anu,
                                                                                                                     locationMessage: {
                                                                                                                     jpegThumbnail: fs.readFileSync('./image/drips.jpg')},
-                                                                                                                    hydratedFooterText: `𝗛𝗶  ${pushname} ZIMBOT-V4 NOW OUT!!!
+                                                                                                                    hydratedFooterText: `HI  ${pushname} 
+
+*DASHBOARD*
+
+NEXT WEEK I MIGHTGO UNDER MAINTANANCE, IF YOU SEE ME OFFLINE DONT WORRY BECAUSE I WILL BE BACK!
+
+
+                                                                                                                    *SPECIAL ANOUNCEMENT*
+                                                                                                                    
+                                                                                                                    ZIMBOT-V4 NOW OUT!!!
+
+                                                                                                                    
 ╭──────[ BOT_NYAMA'S 𝗠𝗘𝗡𝗨 ]
+┃
 │💎𝗕𝗢𝗧 𝗡𝗔𝗠𝗘 : BOT NYAMA
 │
 │💎𝗢𝗪𝗡𝗘𝗥 𝗡𝗔𝗠𝗘: TRADER_NYAMA
@@ -2533,9 +2545,13 @@ To download media, please click one of the buttons below or enter the ytmp3/ytmp
 ┃           OR
 ┃   TEXT/CALL OT WHATSAPP
 ┃       0784675236
+┃
 ┃*NAME:* ${pushname}
-┃ ɴᴜᴍʙᴇʀ : wa.me/${m.sender.split('@')[0]}  
+┃
+┃ ɴᴜᴍʙᴇʀ : wa.me/${m.sender.split('@')[0]} 
+┃ 
 ┃*ᴛᴏᴛᴀʟ ᴜsᴇʀs:* ${Object.keys(global.db.users).length}
+┃
 ┃💎𝗥𝗨𝗡𝗧𝗜𝗠𝗘 : ${runtime(process.uptime())}
 ┃
 ╰─────────────────────⦁
