@@ -2523,9 +2523,7 @@ To download media, please click one of the buttons below or enter the ytmp3/ytmp
                                                                                                                     locationMessage: {
                                                                                                                     jpegThumbnail: fs.readFileSync('./image/drips.jpg')},
                                                                                                                     hydratedFooterText: `HI  ${pushname}
-NEXT WEEK I MIGHT GO UNDER MAINTANANCE, IF YOU SEE ME OFFLINE DONT WORRY BECAUSE I WILL BE BACK! 
-                                                                                                                    SPECIAL ANOUNCEMENT  
-                                                                                                                    ZIMBOT-V4 NOW OUT!!!                                                                                                                 
+NEXT WEEK I MIGHT GO UNDER MAINTANANCE, IF YOU SEE ME OFFLINE DONT WORRY BECAUSE I WILL BE BACK!AND SPECIAL ANOUNCEMENT ZIMBOT-V4 NOW OUT!!!                                                                                                                 
 ╭──────[ BOT_NYAMA'S 𝗠𝗘𝗡𝗨 ]
 ┃
 │💎𝗕𝗢𝗧 𝗡𝗔𝗠𝗘 : BOT NYAMA
